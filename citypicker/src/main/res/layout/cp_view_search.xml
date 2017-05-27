@@ -30,6 +30,7 @@
         android:textColorHint="@color/cp_gray"
         android:inputType="text"
         android:singleLine="true"
+        android:maxLines="1"
         android:textColor="@color/cp_gray"
         android:textSize="14sp"
         tools:ignore="RtlHardcoded" />
