@@ -2,6 +2,7 @@
 
 # CityPicker
 
+[![](https://jitpack.io/v/YLBFDEV/CityPicker.svg)](https://jitpack.io/#YLBFDEV/CityPicker)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-9%2B-yellow.svg?style=flat)](https://android-arsenal.com/api?level=9)
 
@@ -19,8 +20,49 @@
 
 # Install
 
-Gradle:
+- ***New Version***
+[![](https://jitpack.io/v/YLBFDEV/CityPicker.svg)](https://jitpack.io/#YLBFDEV/CityPicker)
 
+> Gradle:
+Step 1.
+Add it in your root build.gradle at the end of repositories:
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```groovy
+	dependencies {
+	        compile 'com.github.YLBFDEV:CityPicker:1.2'
+	}
+```
+
+> Maven:
+Step 1. Add the repositories
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+Step 2. Add the dependency
+```
+	<dependency>
+	    <groupId>com.github.YLBFDEV</groupId>
+	    <artifactId>CityPicker</artifactId>
+	    <version>1.2</version>
+	</dependency>
+```
+
+
+- *** Old Version ***
+Gradle:
 ```groovy
 compile 'com.zaaach:citypicker:1.1'
 ```
@@ -95,7 +137,3 @@ enjoy it.
 -keep class com.autonavi.aps.amapapi.model.**{*;}
 ```
 
-# Ad
-我的[动漫周边淘宝店]( https://shop238932691.taobao.com/) ，希望亲可以关注下(dan)：
-
-![二维码](https://img.alicdn.com/imgextra/i1/769720206/TB2AnBVar0kpuFjy0FjXXcBbVXa_!!769720206.png)
